@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hd:answerSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:hd="http://www.hotdocs.com/schemas/answer_set/2017" title="" version="2.0">
+  <hd:textAnswer name="Client Business Name">
+    <hd:value>Test</hd:value>
+  </hd:textAnswer>
+  <hd:textAnswer name="Client Business Title">
+    <hd:value xsi:nil="true" />
+  </hd:textAnswer>
+  <hd:textAnswer name="Client City">
+    <hd:value xsi:nil="true" />
+  </hd:textAnswer>
+  <hd:textAnswer name="Client Name First">
+    <hd:value xsi:nil="true" />
+  </hd:textAnswer>
+  <hd:textAnswer name="Client Name Last">
+    <hd:value xsi:nil="true" />
+  </hd:textAnswer>
+  <hd:textAnswer name="Client Name Middle">
+    <hd:value xsi:nil="true" />
+  </hd:textAnswer>
+  <hd:textAnswer name="Client State">
+    <hd:value xsi:nil="true" />
+  </hd:textAnswer>
+  <hd:textAnswer name="Client Street Address">
+    <hd:value xsi:nil="true" />
+  </hd:textAnswer>
+  <hd:textAnswer name="Client Suffix">
+    <hd:value xsi:nil="true" />
+  </hd:textAnswer>
+  <hd:textAnswer name="Client Zip">
+    <hd:value xsi:nil="true" />
+  </hd:textAnswer>
+  <hd:textAnswer name="Discussion Options">
+    <hd:value xsi:nil="true" />
+  </hd:textAnswer>
+  <hd:textAnswer name="Observations Diagram Options">
+    <hd:value xsi:nil="true" />
+  </hd:textAnswer>
+  <hd:textAnswer name="Observations No Sub Sections Description">
+    <hd:value xsi:nil="true" />
+  </hd:textAnswer>
+  <hd:textAnswer name="Observations Photos Location">
+    <hd:value xsi:nil="true" />
+  </hd:textAnswer>
+  <hd:textAnswer name="Project Case Number">
+    <hd:value xsi:nil="true" />
+  </hd:textAnswer>
+  <hd:textAnswer name="Project Claim Number">
+    <hd:value xsi:nil="true" />
+  </hd:textAnswer>
+  <hd:textAnswer name="Project Conclusion Options">
+    <hd:value xsi:nil="true" />
+  </hd:textAnswer>
+  <hd:textAnswer name="Project Direct Client Reference Number">
+    <hd:value xsi:nil="true" />
+  </hd:textAnswer>
+  <hd:textAnswer name="Project FEC CAT">
+    <hd:value xsi:nil="true" />
+  </hd:textAnswer>
+  <hd:textAnswer name="Project FEC Project Type">
+    <hd:value xsi:nil="true" />
+  </hd:textAnswer>
+  <hd:textAnswer name="Project FEC Year">
+    <hd:value>2021</hd:value>
+  </hd:textAnswer>
+  <hd:textAnswer name="Project Purpose Options">
+    <hd:value xsi:nil="true" />
+  </hd:textAnswer>
+  <hd:textAnswer name="Project Reported Date of Loss Options">
+    <hd:value>Omit reference to date of loss</hd:value>
+  </hd:textAnswer>
+  <hd:textAnswer name="Property Aerial Image Source">
+    <hd:value xsi:nil="true" />
+  </hd:textAnswer>
+  <hd:textAnswer name="Property Description Bullet">
+    <hd:repeat>
+      <hd:value xsi:nil="true" />
+    </hd:repeat>
+  </hd:textAnswer>
+  <hd:textAnswer name="Property Owner City">
+    <hd:value xsi:nil="true" />
+  </hd:textAnswer>
+  <hd:textAnswer name="Property Owner State">
+    <hd:value xsi:nil="true" />
+  </hd:textAnswer>
+  <hd:textAnswer name="Property Owner Street Address">
+    <hd:value xsi:nil="true" />
+  </hd:textAnswer>
+  <hd:textAnswer name="Property Owner Zip">
+    <hd:value xsi:nil="true" />
+  </hd:textAnswer>
+  <hd:textAnswer name="Property State">
+    <hd:value xsi:nil="true" />
+  </hd:textAnswer>
+  <hd:textAnswer name="Property Structure Term">
+    <hd:value xsi:nil="true" />
+  </hd:textAnswer>
+  <hd:textAnswer name="Report 1st or 3rd Person">
+    <hd:value>3rd person</hd:value>
+  </hd:textAnswer>
+  <hd:textAnswer name="Report Date Options">
+    <hd:value>Today's date</hd:value>
+  </hd:textAnswer>
+  <hd:textAnswer name="Report File Name Options">
+    <hd:value xsi:nil="true" />
+  </hd:textAnswer>
+  <hd:textAnswer name="Report Sole or Co Authors">
+    <hd:value xsi:nil="true" />
+  </hd:textAnswer>
+  <hd:textAnswer name="Report Title">
+    <hd:value>Report of Findings</hd:value>
+  </hd:textAnswer>
+  <hd:numberAnswer name="Project FEC Number Project In Year">
+    <hd:value xsi:nil="true" />
+  </hd:numberAnswer>
+  <hd:dateAnswer name="Property Aerial Image Date">
+    <hd:value xsi:nil="true" />
+  </hd:dateAnswer>
+  <hd:dateAnswer name="Report Date">
+    <hd:value>2021-07-06</hd:value>
+  </hd:dateAnswer>
+  <hd:trueFalseAnswer name="Event Description Include">
+    <hd:value xsi:nil="true" />
+  </hd:trueFalseAnswer>
+  <hd:trueFalseAnswer name="Executive Summary Include">
+    <hd:value>true</hd:value>
+  </hd:trueFalseAnswer>
+  <hd:trueFalseAnswer name="Observations Include Sub Sections">
+    <hd:value>false</hd:value>
+  </hd:trueFalseAnswer>
+  <hd:trueFalseAnswer name="Project Other ID Exists">
+    <hd:value xsi:nil="true" />
+  </hd:trueFalseAnswer>
+  <hd:trueFalseAnswer name="Property More Than One Structure">
+    <hd:value xsi:nil="true" />
+  </hd:trueFalseAnswer>
+  <hd:trueFalseAnswer name="Repair Information Include">
+    <hd:value xsi:nil="true" />
+  </hd:trueFalseAnswer>
+  <hd:trueFalseAnswer name="Review of Recd Information Include">
+    <hd:value xsi:nil="true" />
+  </hd:trueFalseAnswer>
+  <hd:trueFalseAnswer name="Site Eval Include">
+    <hd:value xsi:nil="true" />
+  </hd:trueFalseAnswer>
+  <hd:trueFalseAnswer name="Testing Include">
+    <hd:value xsi:nil="true" />
+  </hd:trueFalseAnswer>
+  <hd:trueFalseAnswer name="TOC Include">
+    <hd:value xsi:nil="true" />
+  </hd:trueFalseAnswer>
+  <hd:trueFalseAnswer name="Weather Information Include">
+    <hd:value xsi:nil="true" />
+  </hd:trueFalseAnswer>
+</hd:answerSet>

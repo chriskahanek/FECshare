@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<hd:bookstore xmlns:hd="http://www.hotdocs.com/schemas/answer_set/2017">
+  <hd:book>
+    <hd:title name="en">Harry Potter</hd:title>
+    <hd:author>J K. Rowling</hd:author>
+    <hd:year>2005</hd:year>
+    <hd:price>29.99</hd:price>
+  </hd:book>
+</hd:bookstore>

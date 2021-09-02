@@ -1,0 +1,95 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="GENERATOR" content="IrfanView">
+
+<title>#TITLE#</title>
+
+<script>
+    function loadXMLDoc(filename)
+    {
+    if (window.ActiveXObject)
+      {
+      xhttp = new ActiveXObject("Msxml2.XMLHTTP");
+      }
+    else
+      {
+      xhttp = new XMLHttpRequest();
+      }
+    xhttp.open("GET", filename, false);
+    try {xhttp.responseType = "msxml-document"} catch(err) {} // Helping IE11
+    xhttp.send("");
+    return xhttp.responseXML;
+    }
+    
+    function displayResult(xmlFilename,xslFilename,divID)
+    {
+    xml = loadXMLDoc(xmlFilename);
+    xsl = loadXMLDoc(xslFilename);
+    // code for IE
+    if (window.ActiveXObject || xhttp.responseType == "msxml-document")
+      {
+      ex = xml.transformNode(xsl);
+      document.getElementById(divID).innerHTML = ex;
+      }
+    // code for Chrome, Firefox, Opera, etc.
+    else if (document.implementation && document.implementation.createDocument)
+      {
+      xsltProcessor = new XSLTProcessor();
+      xsltProcessor.importStylesheet(xsl);
+      resultDocument = xsltProcessor.transformToFragment(xml, document);
+      document.getElementById(divID).innerHTML = "";
+      document.getElementById(divID).appendChild(resultDocument);
+      }
+    }
+    
+    function loadXMLfiles()
+    {
+      displayResult('Test.anx','anxreader.xsl','anxexample');
+      displayResult('z_report.xml','z_report.xsl','example');
+        displayResult('y_report.xml','y_report.xsl','example2');
+    }
+</script>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body, a {font-family:'Roboto'; font-size: smaller; color:black; text-decoration: none}
+img {padding-top:0.5in; padding-bottom:0.05in; width:5.5in}
+h1 {width:5.5in; text-align: center; font-weight: bold; padding-top: 0.2in}
+h2 {width:5.5in; text-align: center; font-weight:normal}
+</style>
+
+</head>
+
+<body bgcolor="#BGCOLOR#" onload="loadXMLfiles()">
+
+<div style="padding-left: 1in">
+<table>
+    <tr>
+        <div style="padding-top:0.2in; width:5.5in; text-align: center">
+            <svg viewBox="811.125 423.617 221.75 83.766" xmlns="http://www.w3.org/2000/svg" width="400">
+            <path d="m 0,0 v -11.281 h -47.033 v 60.74 H -1.127 V 38.178 H -33.059 V 24.988 H -4.862 V 14.054 H -33.059 V 0 Z" style="fill:#001a41;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path270" transform="matrix(1.333333, 0, 0, -1.333333, 947.185669, 490.951172)"/>
+            <path d="m 0,0 c -5.004,2.688 -8.935,6.419 -11.8,11.192 -2.862,4.774 -4.295,10.168 -4.295,16.184 0,6.016 1.433,11.409 4.295,16.183 2.865,4.773 6.796,8.504 11.8,11.192 5.004,2.688 10.629,4.037 16.879,4.037 5.262,0 10.022,-0.927 14.272,-2.776 4.254,-1.855 7.825,-4.517 10.718,-7.986 l -9.024,-8.331 c -4.112,4.743 -9.2,7.116 -15.273,7.116 -3.762,0 -7.116,-0.826 -10.066,-2.471 -2.95,-1.651 -5.248,-3.948 -6.899,-6.899 -1.65,-2.95 -2.47,-6.308 -2.47,-10.065 0,-3.763 0.82,-7.116 2.47,-10.066 1.651,-2.951 3.949,-5.248 6.899,-6.898 2.95,-1.65 6.304,-2.472 10.066,-2.472 6.073,0 11.161,2.396 15.273,7.201 L 41.869,6.81 C 38.976,3.282 35.387,0.59 31.106,-1.26 26.826,-3.11 22.052,-4.037 16.791,-4.037 10.598,-4.037 5.004,-2.692 0,0" style="fill:#001a41;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path274" transform="matrix(1.333333, 0, 0, -1.333333, 977.050171, 502.000641)"/>
+            <path d="M 0,0 H 19.265 V 11.277 H -6.908 Z" style="fill:#e30613;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path278" transform="matrix(1.333333, 0, 0, -1.333333, 841.664856, 472.66864)"/>
+            <path d="m 0,0 v -60.74 h 14.058 v 49.459 H 45.906 V 0 Z" style="fill:#001a41;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path282" transform="matrix(1.333333, 0, 0, -1.333333, 811.124512, 425.005798)"/>
+            </svg>
+        </div>
+    </tr>
+    <tr><h1>Select Photographs Taken By FEC</h1></tr>
+    <tr><h2>Site Visit Dates: July 28 and 29, 2021</h2></tr>
+    <tr><div id="anxexample">the example div</div></tr>
+    <tr><div id="example">the example div</div></tr>
+    <tr><div id="example2">the example2 div</div></tr>
+
+%IMAGE_BEGIN%
+<TD align=center VALIGN=BOTTOM>
+<A HREF="#LINK#" target="#TARGET#"><IMG SRC=#THUMB# BORDER="0" ALT="#IMAGE_NAME#">
+<div style="width:5.5in; text-align: #TXT_ALIGN#">#IMAGE_TEXT#</div></A></TD>
+%IMAGE_END%
+
+</TABLE>
+
+</div>
+</body>
+</html>
