@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="js/jquery.js"></script>
+        <script src="js/FileSaver.js"></script>
+
+    </head>
+<body>
+<h1>File Saver</h1>
+<p>This should generate a file</p>
+<button id="save-btn">Generate Text File</button>
+<script>
+    $("#save-btn").click(function(){
+
+        var blob=new Blob(["Test text"],{type:"text/plain;charset=utf-8"}
+        );
+
+        saveAs(blob, "testfile1.txt");
+
+    });
+</script>
+</body>
+</html>
