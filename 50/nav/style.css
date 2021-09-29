@@ -1,0 +1,60 @@
+body, table, th, td, a {
+   font-family: Roboto, Helvetica, sans-serif;
+}
+body {
+   background: #ffffff;
+   color: #000000;
+}
+a:link, a:visited {
+   color: #001a41;
+}
+a:active, a:hover {
+   color: #000000;
+}
+img {
+ border: none;
+}
+table {
+ border: none;
+ border-collapse: collapse;
+ margin-left: auto;
+ margin-right: auto;
+}
+div.center {
+ width: auto;
+ margin-left: auto;
+ margin-right: auto;
+ text-align: center;
+}
+table.outertable {
+   border: none;
+}
+th.header {
+   font-size: 22px;
+   font-weight: bold;
+   height: 53px;
+   padding: 0 10px 10px 10px;
+   vertical-align: middle;
+   text-align: center;
+}
+td.content {
+   padding: none;
+   vertical-align: middle;
+   font-size: 20px;
+}
+td.footer {
+   color: #808080;
+   font-size: 10px;
+   padding: 0px 10px 10px 10px;
+}
+td.thumbs {
+   color: #000000;
+   font-size: 10pt;
+   vertical-align: baseline;
+   padding: 10px 0 20px 0;
+   text-align:left;
+}
+td.navi {
+   font-size: 12px;
+   padding: 10px;
+}
